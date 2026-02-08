@@ -73,7 +73,7 @@ The input CSV must include the following columns:
 
 ## Outputs
 
-### Risk Report (CSV)
+### MTSS Report (CSV)
 Generated in the `/outputs` directory:
 - Attendance rate
 - Grade percentage
@@ -143,7 +143,7 @@ From the project root:
 ```bash
 python -m src.cli \
   --input data/input/students.csv \
-  --output outputs/risk_report.csv \
+  --output outputs/mtss_report.csv \
   --summary outputs/summary.md
 ```
 
